@@ -159,6 +159,7 @@ BOARD_SEPOLICY_UNION += \
     property.te \
     property_contexts \
     qseecomd.te \
+    qcamerasvr.te \
     rild.te \
     rmt_storage.te \
     shell.te \
