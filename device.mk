@@ -89,7 +89,8 @@ PRODUCT_PACKAGES += \
 
 # Filesystem
 PRODUCT_PACKAGES += \
-    setup_fs
+    setup_fs \
+    mount.exfat
 
 # Qcom SoftAP & wifi
 PRODUCT_PACKAGES += \
