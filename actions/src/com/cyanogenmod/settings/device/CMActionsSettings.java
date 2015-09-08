@@ -36,7 +36,6 @@ public class CMActionsSettings {
     private final UpdatedStateNotifier mUpdatedStateNotifier;
 
     private boolean mCameraGestureEnabled;
-    private boolean mChopChopEnabled;
     private boolean mIrWakeUpEnabled;
     private boolean mPickUpGestureEnabled;
 
@@ -52,9 +51,6 @@ public class CMActionsSettings {
         return mCameraGestureEnabled;
     }
 
-    public boolean isChopChopGestureEnabled() {
-        return mChopChopEnabled;
-    }
 
     public static boolean isDozeEnabled(ContentResolver contentResolver) {
         return (Settings.Secure.getInt(contentResolver, Settings.Secure.DOZE_ENABLED, 1) != 0);
