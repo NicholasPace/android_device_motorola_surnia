@@ -70,22 +70,22 @@ void init_msm_properties(unsigned long msm_id, unsigned long msm_ver, char *boar
         property_set("ro.mot.build.customerid", "retus");
     } else if (ISMATCH(radio, "0x3")){
         /* XT1526 */
-        cdma_properties("0");
-        property_set("ro.product.name", "surnia_boost");
-        property_set("ro.product.model", "XT1526");
-        property_set("ro.build.description", "surnia_boost-user 5.0.2 LXI22.50-14.8 30 release-keys");
-        property_set("ro.build.fingerprint", "motorola/surnia_boost/surnia_cdma:5.0.2/LXI22.50-14.8/30:user/release-keys");
-        property_set("persist.radio.multisim.config", "");
-        property_set("ro.mot.build.customerid ","sprint");
-        property_set("ro.com.android.dataroaming","false");
-        property_set("persist.radio.0x9e_not_callname","1");
-        property_set("ro.fsg-id", "sprint");
-        property_set("ro.diag.enumeration", "diag,serial,rmnet");
-        property_set("ro.cdma.subscription", "0");
-        property_set("ro.cdma.international.eri", "2,74,124,125,126,157,158,159,193,194,195,196,197,198,228,229,230,231,232,233,234,235");
-        property_set("persist.radio.lifecalls", "0");
-        property_set("persist.radio.lifetimer", "0");
-        property_set("ro.carrier", "sprint");
+        //cdma_properties("0");
+        //property_set("ro.product.name", "surnia_boost");
+        //property_set("ro.product.model", "XT1526");
+        //property_set("ro.build.description", "surnia_boost-user 5.0.2 LXI22.50-14.8 30 release-keys");
+        //property_set("ro.build.fingerprint", "motorola/surnia_boost/surnia_cdma:5.0.2/LXI22.50-14.8/30:user/release-keys");
+        //property_set("persist.radio.multisim.config", "");
+        //property_set("ro.mot.build.customerid ","sprint");
+        //property_set("ro.com.android.dataroaming","false");
+        //property_set("persist.radio.0x9e_not_callname","1");
+        //property_set("ro.fsg-id", "sprint");
+        //property_set("ro.diag.enumeration", "diag,serial,rmnet");
+        //property_set("ro.cdma.subscription", "0");
+        //property_set("ro.cdma.international.eri", "2,74,124,125,126,157,158,159,193,194,195,196,197,198,228,229,230,231,232,233,234,235");
+        //property_set("persist.radio.lifecalls", "0");
+        //property_set("persist.radio.lifetimer", "0");
+        //property_set("ro.carrier", "sprint");
     } else if (ISMATCH(radio, "0x4")) {
         /* XT1524 */
         gsm_properties(false);
