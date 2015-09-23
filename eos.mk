@@ -19,6 +19,10 @@ PRODUCT_RELEASE_NAME := surnia
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
 
+# Copy Bootanimation
+PRODUCT_COPY_FILES += \
+vendor/eos/prebuilt/common/bootanimation/bootanimation.zip:system/media/bootanimation.zip
+
 
 $(call inherit-product, device/motorola/surnia/full_surnia.mk)
 
